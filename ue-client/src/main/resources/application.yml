@@ -1,0 +1,11 @@
+ueditor:
+  server:
+    remoteUrl: http://localhost:8088/ueditor
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: utf-8
+    cache: false
+server:
+  port: 8080

@@ -1,0 +1,16 @@
+server:
+  port: 8088
+spring:
+  profiles:
+    active: local
+
+---
+spring:
+  profiles: local
+  ueditor:
+    configPath: D:\work\workspace\dhcc\ue\ue-parent\ue-server\upload
+---
+spring:
+  profiles: test
+  ueditor:
+    configPath: /home/java/ueditor
